@@ -1,0 +1,14 @@
+[user]
+        email = j-takasaki@ceres-inc.jp
+        name = j-takasaki
+[alias]
+        co = checkout
+        st = status
+        ci = commit
+        lgm = log --numstat
+        lg  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+        lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+        wip = commit --allow-empty -m "wip"
+        diffc = diff --cached
+[push]
+        default = simple
